@@ -1,0 +1,87 @@
+
+  
+  select option {
+    /* margin: 40px; */
+    background: #ffff;
+    color: #fff;
+    /* text-shadow: 0 1px 0 rgba(0, 0, 0, 0.12); */
+  }
+
+  @media (min-width: 768px) {
+    .dropdown {
+      width: 600px;
+    }
+  }
+  .dropdown__switch:checked + .dropdown__options-filter .dropdown__select {
+    transform: scaleY(1);
+  }
+  .dropdown__switch:checked + .dropdown__options-filter .dropdown__filter:after {
+    transform: rotate(-135deg);
+  }
+  .dropdown__options-filter {
+    width: 100%;
+    cursor: pointer;
+  }
+  .dropdown__filter {
+    /* position: relative; */
+    /* display: flex; */
+    padding: 10px 20px 10px 20px;
+    color: #595959;
+    background-color:#fff;
+    border: 1px solid #d6d6d6;
+    border-radius: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    list-style: none;
+    color: white;
+  }
+  .dropdown__filter:focus {
+    border: 1px solid #918ff4;
+    outline: none;
+    box-shadow: 0 0 5px 3px #918ff4;
+  }
+  .dropdown__filter::after {
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #595959;
+    border-bottom: 2px solid #595959;
+    transform: rotate(45deg) translateX(-45%);
+    transition: 0.2s ease-in-out;
+  }
+  .dropdown__select {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(152, 152, 152, 0.6);
+    transform: scaleY(0);
+    transform-origin: top;
+    font-weight: 300;
+    transition: 0.2s ease-in-out;
+    list-style: none;
+    color: white;
+  }
+  .dropdown__select-option {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid #d6d6d6;
+    transition: 0.3s;
+  }
+  .dropdown__select-option:last-of-type {
+    border-bottom: 0;
+  }
+  .dropdown__select-option:hover {
+    background-color: #f9f9f9;
+    color: rgba(0, 0, 0, 0.841);
+  }
+
+  .card-bottom{
+    overflow-wrap: break-word !important;
+  }

@@ -1,0 +1,24 @@
+.inner_headeing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.intro{
+    position: relative;
+    color: white;
+}
+.button_folling{
+    border-radius: 0px !important;
+    padding: 10px 15px 10px 15px;
+    width: 7rem;
+    background-color: transparent !important;
+    border: 1px solid white;
+    color: white;
+}
+.button_folling:hover{
+    background-color: white !important;
+    color: black;
+
+
+}

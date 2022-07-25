@@ -1,0 +1,56 @@
+.form-inner form input {
+    font-size: 14px;
+    border: 1px solid rgba(138, 138, 160, 0.3);
+    border-radius: 8px;
+    padding: 9px 20px;
+    margin-bottom: 24px;
+}
+.form-inner form select {
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid rgba(138, 138, 160, 0.3);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    color: #8A8AA0;
+    background: transparent;
+}
+select option {
+    font-size: 15px;
+    line-height: 24px;
+    color: #1F1F2C !important;
+}
+.form-inner form textarea {
+    height: 120px;
+    font-size: 14px;
+    border: 1px solid rgba(138, 138, 160, 0.3);
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin-bottom: 40px;
+}
+.is_dark .form-inner button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* background-color: var(--primary-color3); */
+    /* color: #fff; */
+    border-radius: 30px;
+    padding: 15px 39px;
+    /* border: 1px solid var(--primary-color3); */
+    display: inline-block;
+    -webkit-appearance: none;
+    /* -webkit-transition: all ease 0.3s; */
+    -moz-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    width: 100%;
+}
+ .form-inner button:hover{
+background-color: #5142FC !important;
+color: #fff;
+
+}

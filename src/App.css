@@ -1,0 +1,8 @@
+ .hh{
+     justify-content: space-around;
+ }
+
+ .App{
+    background-image: url('./Assets/bg-main.gif') !important;
+    position: relative;
+ }

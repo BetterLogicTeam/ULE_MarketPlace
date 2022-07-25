@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.825f4cd7.chunk.css",
+    "main.js": "/static/js/main.a79ce9ae.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.e57177bd.js",
+    "static/css/2.d66232d8.chunk.css": "/static/css/2.d66232d8.chunk.css",
+    "static/js/2.c6647d9e.chunk.js": "/static/js/2.c6647d9e.chunk.js",
+    "static/js/3.f91d18f0.chunk.js": "/static/js/3.f91d18f0.chunk.js",
+    "index.html": "/index.html",
+    "static/js/2.c6647d9e.chunk.js.LICENSE.txt": "/static/js/2.c6647d9e.chunk.js.LICENSE.txt",
+    "static/media/Footer.css": "/static/media/10.10fb8d36.jpg",
+    "static/media/Work_style.css": "/static/media/13.f41e44a6.png",
+    "static/media/Collection.css": "/static/media/18.9d4d89ba.jpg",
+    "static/media/App.css": "/static/media/bg-main.c7f003ad.gif",
+    "static/media/Hero.css": "/static/media/bg.10b1afa7.gif",
+    "static/media/Auction.css": "/static/media/bg2.21a19410.gif",
+    "static/media/flat,750x1000,075,f.21a1adb5.jpg": "/static/media/flat,750x1000,075,f.21a1adb5.jpg",
+    "static/media/Activity.css": "/static/media/img_bg_page_title_dark.a1eeee83.jpg",
+    "static/media/placeholder.ea87cfce.webp": "/static/media/placeholder.ea87cfce.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e57177bd.js",
+    "static/css/2.d66232d8.chunk.css",
+    "static/js/2.c6647d9e.chunk.js",
+    "static/css/main.825f4cd7.chunk.css",
+    "static/js/main.a79ce9ae.chunk.js"
+  ]
+}

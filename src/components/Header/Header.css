@@ -1,0 +1,298 @@
+.button1{
+    background-color: "#ED7014";
+    color: white;
+    font-size: large;
+}
+.navhere{
+    position: relative;
+}
+@media (max-width:767.98px){
+    .toggle{
+        display: flex;
+    }
+}
+.toggle{
+    display: none;
+}
+
+.dropdown_here{
+    background-color: #16151A;
+}
+.dropdown_here li a{
+    color: white !important;
+
+}
+.dropdown_here li a:hover{
+    background-color: #000 !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Headera{
+    font-size: 1.6rem !important;
+    color: white !important;
+    width: 100%;
+    /* padding-top: -5rem !important; */
+    padding-bottom: 5rem !important;
+    height: 15vh !important;
+}
+.nav_logo{
+    width: 40vw;
+    height: 10vh;
+    margin-left: -10rem;
+}
+.nav_text_here{
+margin-top: 3rem;
+}
+.input_and_btn{
+margin-top: -0.9rem;
+
+}
+.btn1{
+
+    padding: 10px 35px 10px 20px !important;
+    height: 7vh;
+    border: 2px solid #5142FC !important;
+    background-color: transparent;
+
+}
+
+.btn1:hover{
+    background-color: #fff;
+    color: #5142FC;
+}
+
+
+.input_search{
+    /* width: 5rem !important; */
+    padding: 12px 25px 12px 25px !important;
+    height: 7vh;
+    border: 2px solid #5142FC !important;
+
+
+
+}
+
+.btn_wallet{
+    
+    border: 2px solid #5142FC;
+    color: #fff;
+    background: transparent none repeat scroll 0 0;
+    padding: 12px 15px 12px 15px;
+    margin-top: -1.5rem;
+    font-size: 1.6rem;
+    margin-left: -1rem;
+
+}
+.btn_wallet:hover{
+background-color: #fff;
+color: #5142FC;
+}
+
+
+.icon_wallet{
+   font-size: 2rem;
+}
+.inner_btn_connect{
+    margin-left: 1rem;
+}
+.maina img{
+    width: 8rem;
+    /* margin-right: 2rem !important; */
+}
+
+.hzn{
+    margin-left: 3rem !important;
+}
+
+.innn{
+    width: 200px;
+    height: 10px !important;
+    /* margin: auto; */
+}
+
+
+@media screen and (max-width:992px) {
+.Headera{
+    height: auto !important;
+    padding-top: 10px;
+    padding-bottom: 1rem !important;
+
+}
+.nav_logo{
+    width: 30vw;
+    height: auto;
+    margin-left: 0rem;
+}
+.nav_text_here{
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+.btn_wallet{
+    margin-top: 10px;
+}
+.input_and_btn{
+margin-top: 10px;
+}
+
+
+    
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+
+    .Headera{
+        height: auto !important;
+        padding-top: 10px;
+        padding-bottom: 1rem !important;
+    
+    }
+    .nav_logo{
+        width: 20vw;
+        height: auto;
+        margin-left: 0rem;
+    }
+    .nav_text_here{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .btn_wallet{
+        margin-top: 10px;
+    }
+    .input_and_btn{
+    margin-top: 10px;
+    width: 30rem;
+    }
+    .nav_icon_here{
+        margin-top: 1.5rem !important;
+        font-size: 20px;
+        color: #fff !important;
+       
+    }
+    
+    
+}
+
+@media (min-width:1200px) and (max-width:1600px) {
+
+    .Headera{
+        height: auto !important;
+        padding-top: 10px;
+        padding-bottom: 1rem !important;
+    
+    }
+    .nav_logo{
+        width: 20rem !important;
+        height: auto;
+        margin-left: -5rem;
+     
+        margin-top: 2.5rem;
+    }
+    .nav_text_here{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .btn_wallet{
+        margin-top: 10px;
+    }
+    .input_and_btn{
+    margin-top: 10px;
+    width: 20rem;
+    
+    }
+    .nav_icon_here{
+        margin-top: 1.5rem !important;
+        font-size: 20px;
+        color: #fff !important;
+       
+    }
+    /* .input_search{height: 10vh;
+
+    }
+    .btn1{
+        height: 10vh;
+    } */
+    
+}
+
+@media (min-width:1600px) and (max-width:4000px) {
+
+    .Headera{
+        height: auto !important;
+        padding-top: 10px;
+        padding-bottom: 1rem !important;
+    
+    }
+    .nav_logo{
+        width: 20rem !important;
+        height: auto;
+        margin-left: 0rem;
+     
+        margin-top: 2.5rem;
+    }
+    .nav_text_here{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .btn_wallet{
+        margin-top: 10px;
+    }
+    .input_and_btn{
+    margin-top: 10px;
+    width: 20rem;
+    
+    }
+    .nav_icon_here{
+        margin-top: 1.5rem !important;
+        font-size: 20px;
+        color: #fff !important;
+       
+    }
+    .input_search{height: 10vh;
+
+    }
+    .btn1{
+        height: 10vh;
+    }
+    
+}
+
+.nav_connect_btn{
+    padding: 0 !important;
+}

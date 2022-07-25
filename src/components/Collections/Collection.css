@@ -1,0 +1,192 @@
+
+.bg_image_collection{
+    background-image: url('../../Assets//images//backgroup-secsion/18.jpg') !important;
+    background-size: cover !important;
+    background-position: center ;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-position-x:-100% !important; */
+    
+
+}
+
+.tf-soft {
+    /* position: relative; */
+    display: flex !important ;
+    justify-content: space-between !important ;
+    margin-bottom: 40px;
+}
+ .dropdown-toggle {
+    background-color: transparent !important;
+}
+.tf-soft .dropdown-toggle {
+    /* display: flex; */
+    /* display: -webkit-box; */
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    padding: 9px 16px 9px 15px;
+    /* background-color: #7A798A; */
+    border-radius: 100px;
+    border: 1px solid #7A798A;
+    margin-right: 0px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    z-index: 9;
+}
+
+@media (min-width: 768px){
+.dropdown {
+    width: 0px;
+}
+}
+
+.inner_div_here{
+    display: flex !important;
+    justify-content: start !important;
+}
+
+
+.sc-card-product {
+    padding: 20px;
+    background:#343444;
+    box-shadow: 0 0 21px #4802d7;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.sc-card-product .card-media {
+    position: relative;
+    margin-bottom: 21px;
+    box-sizing: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.sc-card-product .card-media img {
+    width: 100%;
+}
+.sc-card-product .card-media .wishlist-button {
+    position: absolute;
+    top: 13px;
+    right: 11px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    padding: 2px 11px;
+    border-radius: 8px;
+    background-color: #14141F;
+    cursor: pointer;
+    border: none;
+}
+.wishlist-button .number-like {
+    width: 22px;
+    display: inline-block;
+}
+.sc-card-product .card-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.sc-card-product .card-title h5.style2 {
+    max-width: 75%;
+}
+.sc-card-product .card-title h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* max-width: 70%; */
+}
+.sc-card-product .card-title h5 {
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* max-width: 70%; */
+    text-transform: capitalize;
+    line-height: 26px;
+}
+.sc-card-product .card-title .tags {
+    width: 49px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    background-color: #5142FC;
+    border-radius: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.sc-card-article .meta-info, .sc-card-article .meta-info .author, .sc-card-product .meta-info, .sc-card-product .meta-info .author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sc-card-article .meta-info .author .avatar, .sc-card-product .meta-info .author .avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+.sc-card-article .meta-info .author .info span, .sc-card-product .meta-info .author .info span, .sc-card-product .price span {
+    color: #EBEBEB;
+    font-size: 13px;
+    line-height: 21px;
+}
+.sc-card-article .meta-info .author .info h6, .sc-card-product .meta-info .author .info h6 {
+    line-height: 22px;
+}
+h6 {
+    font-size: 15px;
+}
+.sc-card-product .meta-info .price {
+    text-align: right;
+}
+.sc-card-product .meta-info .price h5 {
+    margin-top: 6px;
+}
+.sc-card-product.coming_soon .card-bottom {
+    display: none;
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    .inner_div_here{
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        align-items: center;
+
+    }
+    .tf-soft {
+        /* position: relative; */
+        display: flex !important ;
+        justify-content: center !important ;
+        margin-bottom: 40px;
+        flex-direction: column !important;
+        align-items: center !important;
+
+    }
+    
+}
+
+.date_inner{
+    display: flex;
+    justify-content: center;
+}

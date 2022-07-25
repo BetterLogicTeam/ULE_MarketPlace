@@ -1,0 +1,50 @@
+.userProfile__container1{
+    display: flex;
+    padding-top: 180px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+.container1__part2{
+    margin-left: 200px;
+}
+
+.userProfile{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+.edit__button{
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(135deg, var(--primary-color) 10%, var(--secondary-color));
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.list-item{
+    padding: 15px;
+    margin-left: 50px;
+}
+
+.ul-list{
+    width: 700px ;
+}
+@media screen and (max-width:600px){
+    .userProfile__container1{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .container1__part2{
+        margin-left: 40px;
+    }
+    .content1{
+    }
+    .userProfile_container2{
+        display: flex;
+        flex-direction: column;
+    }
+}
